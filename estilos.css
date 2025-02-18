@@ -54,7 +54,14 @@ nav ul li {  display: inline;    /* Hace que los elementos de lista se muestren 
     height: 350px;             /* Alto fijo de la imagen */ 
     border-radius: 3px;        /* Hace la imagen circular */ 
     margin: 20px 0;            /* Espacio arriba y abajo */ 
+    box-shadow: 5px 5px 10px gray;
+    transition: transform 0.3s, box-shadow 0.3s;
 } 
+
+#sobre-mi img:hover {
+    transform: rotate(8deg);
+    box-shadow: 0 0 15px 15px pink;
+}
  
 #sobre-mi p { 
     max-width: 600px;          /* Ancho máximo del párrafo */ 
