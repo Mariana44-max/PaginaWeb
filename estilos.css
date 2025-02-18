@@ -47,14 +47,12 @@ nav ul li {  display: inline;    /* Hace que los elementos de lista se muestren 
         border-radius: 3px;         /* Esquinas redondeadas */ 
 } 
 #sobre-mi { 
-    text-align: center;         /* Centra todo el contenido */ 
-    background-color: #000000;  /* Fondo gris muy claro */ 
+    text-align: center;         /* Centra todo el contenido */
 } 
  
-#sobre-mi img { 
-    width: 200px;              /* Ancho fijo de la imagen */ 
-    height: 200px;             /* Alto fijo de la imagen */ 
-    border-radius: 50%;        /* Hace la imagen circular */ 
+#sobre-mi img {  
+    height: 350px;             /* Alto fijo de la imagen */ 
+    border-radius: 3px;        /* Hace la imagen circular */ 
     margin: 20px 0;            /* Espacio arriba y abajo */ 
 } 
  
